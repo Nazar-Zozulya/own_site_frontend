@@ -1,0 +1,30 @@
+.container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px 4px;
+	gap: 5px;
+	height: 30px;
+	background: #151515;
+	border: 1px solid #373737;
+	border-radius: 5px;
+}
+
+.container {
+	background: #1d1d1d;
+}
+
+.img {
+	width: 20px;
+	height: 20px;
+}
+
+.link {
+	font-family: "Fira Code";
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #669ffb;
+}
