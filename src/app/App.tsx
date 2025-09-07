@@ -1,9 +1,10 @@
+import { MainPage } from "../pages/main-page";
 
 
 
 
 export function App () {
     return(
-        <div>Hello World!</div>
+        <MainPage></MainPage>
     )
 }
