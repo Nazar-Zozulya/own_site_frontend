@@ -1,0 +1,54 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* padding: 10px; */
+	gap: 10px;
+}
+
+.partTitle {
+	font-family: "Fira Code";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 84px;
+	color: #fcfcfc;
+}
+
+.technologieslock {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	width: 100%;
+}
+
+.title {
+	font-family: "Fira Code";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+	color: #fcfcfc;
+}
+
+.description {
+	font-family: "Fira Code";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #9e9eaa;
+}
+
+.technologiesList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 10px 0px;
+	gap: 25px;
+	width: 100%;
+}

@@ -1,0 +1,1 @@
+export { CoursesPart } from './ui/courses-part'

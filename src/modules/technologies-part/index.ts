@@ -1,0 +1,1 @@
+export { TechnologiesPart } from './ui/technologies-part'

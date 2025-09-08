@@ -1,0 +1,1 @@
+export { ContactMePart } from './ui/contact-me-part'
