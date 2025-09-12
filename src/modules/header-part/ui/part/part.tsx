@@ -4,15 +4,56 @@ export function HeaderPart() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.navigationBlock}>
-				<button className={styles.navItem}>Experience</button>
-				<button className={styles.navItem}>Resume</button>
+				<button
+					className={styles.navItem}
+					onClick={() => {
+						document.querySelector("#myProjects")?.scrollIntoView({
+							behavior: "smooth",
+							block: "center",
+						})
+					}}
+				>
+					Projects
+				</button>
+
+				<a
+					style={{ textDecoration: "none" }}
+					className={styles.navItem}
+					href="https://www.canva.com/design/DAGt5dT6r5I/mteEd8w-o1tOakCJ8sFnVA/edit?utm_content=DAGt5dT6r5I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+				>
+					Resume
+				</a>
+
 				<img className={styles.navImage} src="" alt="" />
-				<button className={styles.navItem}>Projects</button>
-				<button className={styles.navItem}>Courses</button>
+
+				<button
+					className={styles.navItem}
+					onClick={() => {
+						document
+							.querySelector("#technologies")
+							?.scrollIntoView({
+								behavior: "smooth",
+								block: "center",
+							})
+					}}
+				>
+					Experience
+				</button>
+
+				<button
+					className={styles.navItem}
+					onClick={() => {
+						document.querySelector("#myProjects")?.scrollIntoView({
+							behavior: "smooth",
+							block: "center",
+						})
+					}}
+				>
+					Courses
+				</button>
 			</div>
 
 			<img className={styles.logoImg} src="" alt="" />
-
 
 			<div className={styles.descriptionDiv}>
 				<p className={styles.descriptionText}>

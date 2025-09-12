@@ -23,7 +23,7 @@ const projects: ProjectCardProps[] = [
 
 export function MyProjectsPart() {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="myProjects">
 			<p className={styles.title}>MY PROJECTS</p>
 
             <div className={styles.projectsList}>

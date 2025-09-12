@@ -29,6 +29,12 @@
     background: none;
     border: none;
     cursor: pointer;
+	/* transition: all 0.1s; */
+}
+
+.navItem:hover {
+	color: #b3b3b3;
+	/* font-weight: 800; */
 }
 
 .navImage {
@@ -36,6 +42,10 @@
 	height: 80px;
 	background: #ffffff;
 	border-radius: 10000px;
+}
+
+.navImage:hover {
+	width: +20;
 }
 
 .logoImg {

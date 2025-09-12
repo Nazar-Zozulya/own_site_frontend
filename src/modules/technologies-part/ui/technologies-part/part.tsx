@@ -16,7 +16,7 @@ const technologiesIFocusOn: TechnologyCardProps[] = [
 
 export function TechnologiesPart() {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="technologies">
 			<p className={styles.partTitle}>TECHNOLOGIES</p>
 
 			<div className={styles.technologieslock}>

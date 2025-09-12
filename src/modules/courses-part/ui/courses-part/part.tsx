@@ -2,7 +2,7 @@ import styles from "./part.module.css"
 
 export function CoursesPart() {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="courses">
 			<p className={styles.title}>COURSES</p>
 			<div className={styles.content}>
 				<p className={styles.schoolTitle}>World IT:</p>

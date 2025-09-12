@@ -2,7 +2,7 @@ import styles from "./part.module.css"
 
 export function ContactMePart() {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="contactMe">
 			<p className={styles.title}>SAY HELLO</p>
 			<p className={styles.content}>
 				<div className={styles.inputAndLabel}>
