@@ -19,6 +19,7 @@ export function HeaderPart() {
 				<a
 					style={{ textDecoration: "none" }}
 					className={styles.navItem}
+					target="_blank"
 					href="https://www.canva.com/design/DAGt5dT6r5I/mteEd8w-o1tOakCJ8sFnVA/edit?utm_content=DAGt5dT6r5I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 				>
 					Resume
@@ -43,7 +44,7 @@ export function HeaderPart() {
 				<button
 					className={styles.navItem}
 					onClick={() => {
-						document.querySelector("#myProjects")?.scrollIntoView({
+						document.querySelector("#courses")?.scrollIntoView({
 							behavior: "smooth",
 							block: "center",
 						})

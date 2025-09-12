@@ -11,6 +11,10 @@
 	border-radius: 5px;
 }
 
+.container:hover {
+	background-color: #373737;
+}
+
 .image {
 	height: 22px;
 }
@@ -21,4 +25,5 @@
 	font-weight: 500;
 	font-size: 18px;
 	color: #fcfcfc;
+	cursor: default;
 }

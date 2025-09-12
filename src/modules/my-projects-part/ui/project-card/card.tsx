@@ -1,10 +1,11 @@
+import { useState } from "react"
 import { TechnologyCard } from "../../../../components/technology-card"
 import { GithubLinkCard } from "../github-link-card"
 import styles from "./card.module.css"
 import { ProjectCardProps } from "./card.types"
 
 export function ProjectCard(props: ProjectCardProps) {
-	const imageIndex = 0
+	const [ imageIndex, setImageIndex ] = useState<number>(0)
 
 	return (
 		<div className={styles.container}>
@@ -28,15 +29,38 @@ export function ProjectCard(props: ProjectCardProps) {
 				})}
 			</div>
 			<div className={styles.imageSlider}>
-				<img className={styles.selectedImage} src={props.images[imageIndex]} alt="" />
+				<img
+					className={styles.selectedImage}
+					src={props.images[imageIndex]}
+					alt=""
+				/>
 				<div className={styles.imageSliderList}>
-					{props.images.map((image) => {
+					{props.images.map((image, index) => {
 						return (
-							<img
-								className={styles.imageInSlider}
-								src={image}
-								alt=""
-							/>
+							<button
+								style={{
+									border: "none",
+									background: "none",
+									cursor: "pointer",
+								}}
+								onClick={() => {
+									console.log("asd")
+									console.log(index)
+									console.log(imageIndex)
+									
+									setImageIndex(index)
+								}}
+							>
+								<img
+									className={`${styles.imageInSlider} ${
+										index == imageIndex
+											? styles.activeImageInSlider
+											: ""
+									}`}
+									src={image}
+									alt=""
+								/>
+							</button>
 						)
 					})}
 				</div>

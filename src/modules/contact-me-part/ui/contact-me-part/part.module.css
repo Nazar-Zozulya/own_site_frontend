@@ -71,7 +71,9 @@
 }
 
 .textarea {
-	min-height: calc(auto * 3);
+	/* min-height: calc(auto * 3); */
+	resize: vertical;
+
 }
 
 .sendButtonHelper {
@@ -86,11 +88,13 @@
 	display: flex;
 	padding: 5px;
 	border: none;
+	gap: 5px;
 	flex-direction: row;
 	align-items: center;
 	border-radius: 10px;
 	background-color: #373737;
 	cursor: pointer;
+	transition: all 0.1	s;
 }
 
 .sendButton p {
@@ -99,4 +103,16 @@
 	font-weight: 500;
 	font-size: 24px;
 	color: #9e9eaa;
+}
+
+.sendButton:hover {
+	background-color: #9E9EAA;
+}
+
+.sendButton:hover svg path {
+	stroke: #FCFCFC;
+}
+
+.sendButton:hover p {
+	color: #fcfcfc;
 }

@@ -3,15 +3,34 @@ import { TechnologyCardProps } from "../../../../components/technology-card/card
 import styles from "./part.module.css"
 
 const technologiesIWorkWith: TechnologyCardProps[] = [
-	{
-		name: "github",
-	},
+	{ name: "HTML" },
+	{ name: "CSS" },
+	{ name: "JavaScript" },
+	{ name: "TypeScript" },
+	{ name: "Python" },
+	{ name: "Node.js" },
+	{ name: "NPM" },
+	{ name: "React" },
+	{ name: "React Native" },
+	{ name: "Express.js" },
+	{ name: "Django" },
+	{ name: "Docker" },
+	{ name: "Git" },
+	{ name: "Github" },
+	{ name: "MySQL" },
+	{ name: "PostgreSQL" },
+	{ name: "Prisma" },
+	{ name: "Figma" },
 ]
 
+// JavaScript TypeScript React Express.js Docker
+
 const technologiesIFocusOn: TechnologyCardProps[] = [
-	{
-		name: "github",
-	},
+	{ name: "JavaScript" },
+	{ name: "TypeScript" },
+	{ name: "React" },
+	{ name: "Express.js" },
+	{ name: "Docker" },
 ]
 
 export function TechnologiesPart() {

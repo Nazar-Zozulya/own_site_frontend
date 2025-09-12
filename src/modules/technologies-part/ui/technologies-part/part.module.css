@@ -4,7 +4,7 @@
 	flex-direction: column;
 	align-items: center;
 	/* padding: 10px; */
-	gap: 10px;
+	gap: 40px;
 }
 
 .partTitle {
@@ -49,6 +49,6 @@
 	align-items: flex-start;
 	align-content: flex-start;
 	padding: 10px 0px;
-	gap: 25px;
+	gap: 10px;
 	width: 100%;
 }
