@@ -7,7 +7,8 @@ export function ContactMePart() {
 	const { handleSubmit, register } = useForm<ContactMePartForm>()
 
 	async function sendMessage(data: ContactMePartForm) {
-
+		
+		console.log(API_URL)
 		const response = await fetch(`${API_URL}contact-me`, {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
