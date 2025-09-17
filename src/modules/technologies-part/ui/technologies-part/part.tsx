@@ -21,6 +21,8 @@ const technologiesIWorkWith: TechnologyCardProps[] = [
 	{ name: "PostgreSQL" },
 	{ name: "Prisma" },
 	{ name: "Figma" },
+	{ name: "Jinja" },
+	{ name: "BootStrap" },
 ]
 
 // JavaScript TypeScript React Express.js Docker
